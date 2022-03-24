@@ -1,0 +1,17 @@
+nav {
+    float: right;
+    height: 50px; 
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+section img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
