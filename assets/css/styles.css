@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,31 +7,27 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     background-color: red;
-    height: 100px;
+    height: 75px;
     font-size: 20px;
 }
 
 nav li {
     list-style-type: none; 
-    display: inline;
-    padding: 0 10 0 0;
+    display: inline-block;
     background-color: pink;
-    height: 10px;
-    width: 20px;
 }
 
-section h1 {
+main h1 {
     height: 100px;
     display: flex;
     justify-content: center;
-    
 }
 
 section img {
     max-width: 500px;
     max-height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
