@@ -21,13 +21,14 @@ nav li {
 }
 
 header {
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 header h1 {
     height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header img {
@@ -47,11 +48,12 @@ main {
 
 .column-1{
     width: 50%;
-    margin: 0 0 0 400px;
+    margin: 0px 0px 0px 500px;
 }
 
 .column-2{
     width: 50%;
+    
 }
 
 main img {
