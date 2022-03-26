@@ -36,9 +36,20 @@ header img {
 
 }
 
+
 main {
     display: flex;
     justify-content: space-between;
+}
+
+.column-1{
+    float: left;
+    width: 50%;
+}
+
+.column-2{
+    float: right;
+    width: 50%;
 }
 
 main img {
