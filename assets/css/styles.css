@@ -20,6 +20,10 @@ nav li {
     margin: 0px 50px 0px 50px;
 }
 
+header {
+    margin: 0px 0px 100px 0px;
+}
+
 header h1 {
     height: 100px;
     display: flex;
@@ -33,22 +37,20 @@ header img {
     max-width: 500px;
     max-height: 500px;
     border-radius: 20px;
-
 }
 
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .column-1{
-    float: left;
     width: 50%;
+    margin: 0 0 0 400px;
 }
 
 .column-2{
-    float: right;
     width: 50%;
 }
 
@@ -58,4 +60,8 @@ main img {
     max-width: 500px;
     max-height: 500px;
     border-radius: 30px;
+}
+
+footer {
+    text-align: center;
 }
