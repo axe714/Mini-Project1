@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Oswald', sans-serif;
@@ -11,7 +10,7 @@ body {
 
 header {
     background-color: beige;
-    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 100px 0px;
 }
 
 nav {
@@ -20,16 +19,19 @@ nav {
     align-items: center;
     background-color: wheat;
     height: 75px;
+    font-weight: bolder;
     font-size: 20px;
 }
 
 nav li {
+    background-color: wheat;
     list-style-type: none; 
     display: inline-block;
     margin: 0px 50px 0px 50px;
 }
 
 header h1 {
+    font-size: 30px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -45,16 +47,21 @@ header img {
     border-radius: 20px;
 }
 
-main {
+main.main-container {
+    padding: 100px 0px 50px 0px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: peachpuff
 }
 
 main img {
-    border-radius: 30px;
-    max-height: 500px;
-    max-width: 500px;
+    border-radius: 100px;
+    max-height: 800px;
+    max-width: 800px;
+    min-height: 500px;
+    min-width: 500px;
 }
 
 footer {
