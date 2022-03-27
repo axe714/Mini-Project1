@@ -1,14 +1,23 @@
-    * {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+header {
+    background-color: beige;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
+    background-color: wheat;
     height: 75px;
     font-size: 20px;
 }
@@ -16,7 +25,6 @@ nav {
 nav li {
     list-style-type: none; 
     display: inline-block;
-    background-color: pink;
     margin: 0px 50px 0px 50px;
 }
 
@@ -44,24 +52,13 @@ header img {
 main {
     display: flex;
     justify-content: space-around;
-}
-
-.column-1{
-    width: 50%;
-    margin: 0px 0px 0px 500px;
-}
-
-.column-2{
-    width: 50%;
-    
+    background-color: peachpuff
 }
 
 main img {
-    min-height: 400px;
-    min-width: 400px;
-    max-width: 500px;
-    max-height: 500px;
     border-radius: 30px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 footer {
