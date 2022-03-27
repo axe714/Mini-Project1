@@ -6,11 +6,12 @@
 }
 
 body {
-    background-color: wheat;
+    background-color: peachpuff
 }
 
 header {
     background-color: beige;
+    margin: 0px 0px 25px 0px;
 }
 
 nav {
@@ -26,10 +27,6 @@ nav li {
     list-style-type: none; 
     display: inline-block;
     margin: 0px 50px 0px 50px;
-}
-
-header {
-    margin: 0px 0px 25px 0px;
 }
 
 header h1 {
@@ -48,7 +45,6 @@ header img {
     border-radius: 20px;
 }
 
-
 main {
     display: flex;
     justify-content: space-around;
@@ -62,5 +58,6 @@ main img {
 }
 
 footer {
+    background-color: wheat;
     text-align: center;
 }
