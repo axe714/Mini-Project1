@@ -57,6 +57,7 @@ header img {
 }
 
 main.main-container {
+    position: relative;
     padding: 100px 0px 50px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +76,12 @@ main img {
 
 main img:hover {
     opacity: 0.5;
+}
+
+main span {
+    
+
+    
 }
 
 footer {
