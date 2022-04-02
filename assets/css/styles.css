@@ -23,7 +23,7 @@ nav {
     background-color: #201E1F;
     height: 75px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav li {
@@ -53,7 +53,7 @@ nav li:hover {
 }
 
 .hero-container h1 {
-    font-size: 30px;
+    font-size: 40px;
     height: 10px;
     display: flex;
     justify-content: center;
@@ -76,7 +76,7 @@ nav li:hover {
 
 main.main-container {
     position: relative;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 0px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -86,8 +86,7 @@ main.main-container {
 
 main img {
     border-radius: 100px;
-    max-height: 800px;
-    max-width: 900px;
+    max-width: 1000px;
     min-height: 25%;
     min-width: 25%;
     opacity: 1;
@@ -96,7 +95,7 @@ main img {
     backface-visibility: hidden;
 }
 
-main section{
+main section {
     position: relative;
 }
 
@@ -117,6 +116,44 @@ div section button{
     opacity: 0;
 }
 
+#contact-container {
+    /* Center the form on the page */
+    /* margin: 0 auto; */
+    width: 100%;
+    padding: 50px;
+    border: 5px solid #6F1D1B;
+    border-radius: 20px;
+    display: block;
+    color: white;
+}
+
+form li {
+    list-style-type: none;
+}
+
+#contact-container h2 {
+    font-size: 35px;
+}
+
+input, 
+textarea {
+    box-sizing: border-box;
+    width: 200px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+}
+
+form button {
+    height: 40px;
+    width: 60px;
+    background-color: #3e8e41;
+    color: #FDF8F5;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 section:hover button {
     background-color: #3e8e41;
     color: white;
@@ -124,7 +161,7 @@ section:hover button {
 }
 
 section:hover img {
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 footer {
