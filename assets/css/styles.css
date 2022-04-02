@@ -6,26 +6,29 @@
 }
 
 body {
-    background-color: peachpuff
+    background-color: #201E1F;
 }
 
 header {
-    background-color: beige;
+    height: 1000px;
     padding: 0px 0px 50px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1635830625698-3b9bd74671ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80")
 }
+
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: wheat;
+    background-color: #201E1F;
     height: 75px;
     font-weight: bolder;
     font-size: 20px;
 }
 
 nav li {
-    background-color: wheat;
+    color: #F0FFF0;
+    background-color: #201E1F;
     list-style-type: none; 
     display: inline-block;
     margin: 0px 50px 0px 50px;
@@ -40,22 +43,36 @@ nav li:hover {
     transform: scale(1.15);
 }
 
-header h1 {
+
+.hero-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.hero-container h1 {
     font-size: 30px;
-    height: 100px;
+    height: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-header img {
+/* header img {
     display: block;
     margin: 0 auto;
     width: 50%;
     max-width: 500px;
     max-height: 500px;
     border-radius: 50%;
-}
+} */
 
 main.main-container {
     position: relative;
@@ -64,13 +81,13 @@ main.main-container {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: peachpuff
+    background-color: #151414;
 }
 
 main img {
     border-radius: 100px;
     max-height: 800px;
-    max-width: 800px;
+    max-width: 900px;
     min-height: 25%;
     min-width: 25%;
     opacity: 1;
@@ -89,7 +106,6 @@ div section button{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: gainsboro;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     font-size: 16px;
@@ -112,6 +128,7 @@ section:hover img {
 }
 
 footer {
-    background-color: wheat;
+    color: #F0FFF0;
+    background-color: #201E1F;
     text-align: center;
 }
