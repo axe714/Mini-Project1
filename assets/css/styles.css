@@ -115,7 +115,7 @@ section:hover button {
 
 section:hover img {
     opacity: 0.2;
-    transform: scale()
+    transform: scale(1.05)
 }
 
 .project-images button {
