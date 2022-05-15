@@ -85,7 +85,8 @@ main section {
 
 .main-container img {
     border-radius: 100px;
-    max-width: 1000px;
+    /* max-width: 800px;
+    max-height: 588px; */
     min-height: 25%;
     min-width: 25%;
     opacity: 1;
@@ -114,6 +115,7 @@ section:hover button {
 
 section:hover img {
     opacity: 0.2;
+    transform: scale()
 }
 
 .project-images button {
