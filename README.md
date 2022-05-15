@@ -4,7 +4,7 @@ This is a website of my professional portfolio. The website includes future proj
 
 A picture of my professional portfolio website:
 
-[!ProfessionalPortfolio](./assets/images/PortfolioPicture.png)
+![ProfessionalPortfolio](./assets/images/PortfolioPicture.png)
 
 A link to my professional portfolio:
 
