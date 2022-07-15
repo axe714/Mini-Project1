@@ -90,7 +90,7 @@ main section {
     min-height: 25%;
     min-width: 25%;
     opacity: 1;
-    width: 100%;
+    width: 800px;
     height: 500px;
     transition: .5s ease;
     backface-visibility: hidden;
